@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import "./style.css";
 
 export default function RootLayout({
