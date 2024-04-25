@@ -5,14 +5,14 @@ const PreviousTransactions = async () => {
 
   const TransactionsContainer = transactions.map(
     (transaction: any, index: any) => {
-      const { product, category, amount, date } = transaction;
+      const { product, category, amount, transactedAt } = transaction;
       return (
         <div key={index} className="transaction">
           <div>{index + 1}</div>
           <div>{product}</div>
           <div>{amount}</div>
           <div>{category}</div>
-          <div>{date}</div>
+          <div>{transactedAt}</div>
         </div>
       );
     }

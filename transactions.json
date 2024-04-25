@@ -4,15 +4,17 @@
     "product": "Cold Coffee",
     "category": "Food & Bev",
     "amount": 33,
-    "date": "25-April-2024",
-    "createdAt": "123"
+    "transactedAt": "25-April-2024",
+    "createdAt": "123",
+    "mode": "credit"
   },
   {
     "user": "rishabh",
     "category": "Food & Bev",
-    "product": "Momos", 
+    "product": "Momos",
     "amount": 33,
-    "date": "25-April-2024",
-    "createdAt": "123"
+    "transactedAt": "25-April-2024",
+    "createdAt": "123",
+    "mode": "cash"
   }
 ]
