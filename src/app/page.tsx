@@ -1,6 +1,7 @@
+import PreviousTransactions from "./PreviousTransactions";
+
 const Home = () => {
-  return <div id="logo">expense manager</div>;
+  return <PreviousTransactions />;
 };
 
 export default Home;
-  

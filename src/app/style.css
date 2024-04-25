@@ -20,3 +20,29 @@ body {
 #logo {
   font-size: 3em;
 }
+
+#transactions {
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction {
+  display: flex;
+}
+.transaction > div {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  border-top: 1px solid snow;
+  border-left: 1px solid snow;
+  padding: 10px;
+}
+
+.transaction > div:first-child {
+  border-left: unset;
+}
+
+#transactions > .transaction:first-child > div {
+  border-top: unset;
+}
