@@ -1,0 +1,18 @@
+[
+  {
+    "user": "rishabh",
+    "product": "Cold Coffee",
+    "category": "Food & Bev",
+    "amount": 33,
+    "date": "25-April-2024",
+    "createdAt": "123"
+  },
+  {
+    "user": "rishabh",
+    "category": "Food & Bev",
+    "product": "Momos", 
+    "amount": 33,
+    "date": "25-April-2024",
+    "createdAt": "123"
+  }
+]
