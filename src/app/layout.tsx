@@ -7,7 +7,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <nav id="navbar">expense manager</nav>
+        {children}
+      </body>
     </html>
   );
 }
