@@ -17,12 +17,15 @@ body {
   flex-direction: column;
   margin: auto;
   gap: 100px;
+  font-weight: 400;
 }
 
 #navbar {
-  font-size: 3em;
+  font-size: 4em;
   position: relative;
-  left: -22.5vw;
+  left: -19.5vw;
+  font-style: italic;
+  font-weight: 700;
 }
 
 #transactions {
@@ -32,7 +35,7 @@ body {
 }
 
 .heading {
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.25;
 }
 
