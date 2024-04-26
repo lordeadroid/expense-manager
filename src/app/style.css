@@ -31,6 +31,11 @@ body {
   flex-direction: column;
 }
 
+.heading {
+  font-weight: 700;
+  line-height: 1.25;
+}
+
 .transaction {
   display: flex;
 }
