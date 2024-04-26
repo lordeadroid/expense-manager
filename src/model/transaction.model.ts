@@ -1,5 +1,5 @@
 import TTransactionDocument from "@/types/transaction";
-import mongoose, { Schema } from "mongoose";
+import { Model, Schema, model, models } from "mongoose";
 
 const TransactionSchema: Schema<TTransactionDocument> = new Schema({
   user: { type: String, required: true },
@@ -12,8 +12,7 @@ const TransactionSchema: Schema<TTransactionDocument> = new Schema({
 });
 
 const TransactionModel =
-  (mongoose.models
-    .TTransactionDocument as mongoose.Model<TTransactionDocument>) ||
-  mongoose.model<TTransactionDocument>("TTransaction", TransactionSchema);
+  (models.TTransactionDocument as Model<TTransactionDocument>) ||
+  model<TTransactionDocument>("TTransaction", TransactionSchema);
 
 export default TransactionModel;
