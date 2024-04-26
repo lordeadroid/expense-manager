@@ -7,6 +7,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <title>Expense Manager</title>
       <body>
         <nav id="navbar">expense manager</nav>
         {children}
