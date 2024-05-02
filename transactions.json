@@ -1,20 +1,82 @@
 [
   {
     "user": "rishabh",
-    "product": "Cold Coffee",
-    "category": "Food & Bev",
-    "amount": 33,
-    "transactedAt": "25-April-2024",
-    "createdAt": "123",
-    "mode": "credit"
+    "product": "Credit Card Bill",
+    "category": "Bill",
+    "amount": 1000,
+    "transaction": "debit",
+    "transactedAt": "1-May-2024",
+    "createdAt": "2024-05-02T15:39:20.214Z",
+    "mode": "cash"
   },
   {
     "user": "rishabh",
+    "product": "Tea",
     "category": "Food & Bev",
-    "product": "Momos",
-    "amount": 33,
-    "transactedAt": "25-April-2024",
-    "createdAt": "123",
+    "amount": 10,
+    "transaction": "debit",
+    "transactedAt": "1-May-2024",
+    "createdAt": "2024-05-02T15:39:20.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Frooti",
+    "category": "Food & Bev",
+    "amount": 10,
+    "transaction": "debit",
+    "transactedAt": "1-May-2024",
+    "createdAt": "2024-05-02T15:39:20.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Meal",
+    "category": "Food & Bev",
+    "amount": 80,
+    "transaction": "debit",
+    "transactedAt": "1-May-2024",
+    "createdAt": "2024-05-02T15:39:20.214Z",
     "mode": "cash"
+  },
+  {
+    "user": "rishabh",
+    "product": "Credit Card Bill",
+    "category": "Bill",
+    "amount": 996,
+    "transaction": "debit",
+    "transactedAt": "2-May-2024",
+    "createdAt": "2024-05-02T15:39:20.214Z",
+    "mode": "cash"
+  },
+  {
+    "user": "rishabh",
+    "product": "Tea",
+    "category": "Food & Bev",
+    "amount": 10,
+    "transaction": "debit",
+    "transactedAt": "2-May-2024",
+    "createdAt": "2024-05-02T15:39:20.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Pooha",
+    "category": "Food & Bev",
+    "amount": 30,
+    "transaction": "debit",
+    "transactedAt": "2-May-2024",
+    "createdAt": "2024-05-02T15:39:20.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Share Sell",
+    "category": "Investment",
+    "amount": 391,
+    "transaction": "credit",
+    "transactedAt": "2-May-2024",
+    "createdAt": "2024-05-02T15:39:20.214Z",
+    "mode": "credit-card"
   }
 ]
