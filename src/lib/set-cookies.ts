@@ -5,10 +5,8 @@ const setCookies = async (formData: FormData) => {
   const username = formData.get("username");
   const password = formData.get("password");
 
-  const sessionKey = createHmac("sha512", username)
-    .update(password)
-    .digest("hex");
-
+  const hash = createHmac("sha512", password).digest("hex");
+  const sessionKey = createHmac("sha512", hash).update(username).digest("hex");
   const expires = new Date(Date.now() + 60 * 60 * 1000);
   cookies().set("session", sessionKey, { expires });
 };
