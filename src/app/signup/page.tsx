@@ -21,9 +21,15 @@ export default function page() {
           placeholder="Password"
           required
         />
-        <input type="submit" value="LOGIN" />
+         <input
+          type="password"
+          name="password"
+          placeholder="Re Enter Password"
+          required
+        />
+        <input type="submit" value="SIGNUP" />
       </form>
-      <Link href={"signup"}>Signup</Link>
+      <Link href={"login"}>Login</Link>
     </div>
   );
 }
