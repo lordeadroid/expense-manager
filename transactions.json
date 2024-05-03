@@ -61,7 +61,7 @@
   },
   {
     "user": "rishabh",
-    "product": "Pooha",
+    "product": "Poha",
     "category": "Food & Bev",
     "amount": 30,
     "transaction": "debit",
@@ -77,6 +77,16 @@
     "transaction": "credit",
     "transactedAt": "2-May-2024",
     "createdAt": "2024-05-02T15:39:20.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Credit Card Bill",
+    "category": "Bill",
+    "amount": 995,
+    "transaction": "debit",
+    "transactedAt": "3-May-2024",
+    "createdAt": "2024-05-04T08:43:46.214Z",
     "mode": "credit-card"
   }
 ]
