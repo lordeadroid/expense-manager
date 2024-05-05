@@ -13,5 +13,9 @@ export default async function middleware(request: NextRequest) {
     return NextResponse.next();
   }
 
-  return NextResponse.rewrite(new URL("/login", request.url));
+  return NextResponse.redirect(new URL("/login", request.url));
 }
+
+export const config = {
+  matcher: "/",
+};
