@@ -1,21 +1,20 @@
 import { NextRequest, NextResponse } from "next/server";
+import { PATH } from "./constants";
 
 export default async function middleware(request: NextRequest) {
   const cookie = request.cookies.get("session");
+  const session = cookie?.value;
 
   const url = new URL(request.url);
+  const urlPath = url.pathname;
 
-  if (url.pathname === "/signup") {
-    return NextResponse.next();
+  if ((urlPath === PATH.login || urlPath === PATH.signup) && session) {
+    return NextResponse.redirect(new URL(PATH.home, request.url));
   }
 
-  if (cookie?.value) {
-    return NextResponse.next();
+  if (urlPath === PATH.home && !session) {
+    return NextResponse.redirect(new URL(PATH.login, request.url));
   }
 
-  return NextResponse.redirect(new URL("/login", request.url));
+  return NextResponse.next();
 }
-
-export const config = {
-  matcher: "/",
-};
