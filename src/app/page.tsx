@@ -1,7 +1,13 @@
+import Logout from "./Logout";
 import PreviousTransactions from "./PreviousTransactions";
 
 const Home = () => {
-  return <PreviousTransactions />;
+  return (
+    <>
+      <Logout />
+      <PreviousTransactions />
+    </>
+  );
 };
 
 export default Home;
