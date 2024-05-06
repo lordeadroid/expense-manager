@@ -2,13 +2,21 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 
 import setCookies from "@/lib/set-cookies";
+import { PATH } from "@/constants";
 
 export default function page() {
   const handleSubmit = async (formData: FormData) => {
     "use server";
+    const username = formData.get("username");
+    const password = formData.get("password");
+    const confirmPassword = formData.get("confirm-password");
 
-    setCookies(formData);
-    redirect("/");
+    if (password === confirmPassword) {
+      setCookies(formData);
+      redirect("/");
+    }
+
+    redirect("signup");
   };
 
   return (
@@ -21,15 +29,15 @@ export default function page() {
           placeholder="Password"
           required
         />
-         <input
+        <input
           type="password"
-          name="password"
-          placeholder="Re Enter Password"
+          name="confirm-password"
+          placeholder="Confirm Password"
           required
         />
         <input type="submit" value="SIGNUP" />
       </form>
-      <Link href={"login"}>Login</Link>
+      <Link href={PATH.login}>Login</Link>
     </div>
   );
 }
