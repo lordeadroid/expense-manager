@@ -88,5 +88,85 @@
     "transactedAt": "3-May-2024",
     "createdAt": "2024-05-04T08:43:46.214Z",
     "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Tea",
+    "category": "Food & Bev",
+    "amount": 10,
+    "transaction": "debit",
+    "transactedAt": "3-May-2024",
+    "createdAt": "2024-05-04T08:43:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Credit Card Bill",
+    "category": "Bill",
+    "amount": 995,
+    "transaction": "debit",
+    "transactedAt": "3-May-2024",
+    "createdAt": "2024-05-04T08:43:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Biryani",
+    "category": "Food & Bev",
+    "amount": 202.4,
+    "transaction": "debit",
+    "transactedAt": "3-May-2024",
+    "createdAt": "2024-05-07T08:43:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Cold Drink",
+    "category": "Food & Bev",
+    "amount": 15,
+    "transaction": "debit",
+    "transactedAt": "5-May-2024",
+    "createdAt": "2024-05-07T08:43:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Credit Card Bill",
+    "category": "Bill",
+    "amount": 998,
+    "transaction": "debit",
+    "transactedAt": "5-May-2024",
+    "createdAt": "2024-05-07T08:43:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Momos",
+    "category": "Food & Bev",
+    "amount": 70,
+    "transaction": "debit",
+    "transactedAt": "6-May-2024",
+    "createdAt": "2024-05-06T08:43:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Cold Drink",
+    "category": "Food & Bev",
+    "amount": 20,
+    "transaction": "debit",
+    "transactedAt": "6-May-2024",
+    "createdAt": "2024-05-06T08:43:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Biryani",
+    "category": "Food & Bev",
+    "amount": 202.4,
+    "transaction": "debit",
+    "transactedAt": "7-May-2024",
+    "createdAt": "2024-05-07T08:43:46.214Z",
+    "mode": "credit-card"
   }
 ]
