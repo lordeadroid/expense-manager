@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar";
 import "./style.css";
 
 export default function RootLayout({
@@ -9,7 +10,7 @@ export default function RootLayout({
     <html lang="en">
       <title>Expense Manager</title>
       <body>
-        <nav id="navbar">expense manager</nav>
+        <Navbar />
         {children}
       </body>
     </html>
