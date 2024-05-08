@@ -168,5 +168,25 @@
     "transactedAt": "7-May-2024",
     "createdAt": "2024-05-07T08:43:46.214Z",
     "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Cold Drink",
+    "category": "Food & Bev",
+    "amount": 20,
+    "transaction": "debit",
+    "transactedAt": "7-May-2024",
+    "createdAt": "2024-05-07T08:43:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Tea",
+    "category": "Food & Bev",
+    "amount": 10,
+    "transaction": "debit",
+    "transactedAt": "8-May-2024",
+    "createdAt": "2024-05-08T05:58:46.214Z",
+    "mode": "credit-card"
   }
 ]
