@@ -20,14 +20,6 @@ body {
   font-weight: 400;
 }
 
-#navbar {
-  font-size: 4em;
-  position: relative;
-  left: -19.5vw;
-  font-style: italic;
-  font-weight: 700;
-}
-
 #transactions {
   font-size: 2em;
   display: flex;
@@ -41,17 +33,19 @@ body {
 
 .transaction {
   display: flex;
-}
-.transaction > div {
-  display: flex;
-  justify-content: center;
-  width: 250px;
-  border-top: 1px solid snow;
-  border-left: 1px solid snow;
-  padding: 10px;
-}
-.transaction > div:first-child {
-  border-left: unset;
+
+  div {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    border-top: 1px solid snow;
+    border-left: 1px solid snow;
+    padding: 10px;
+  }
+
+  div:first-child {
+    border-left: unset;
+  }
 }
 
 #transactions > .transaction:first-child > div {
