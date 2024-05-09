@@ -47,7 +47,7 @@ export default function page() {
         <input type="submit" value="SIGNUP" className={styles.button} />
       </form>
       <div className={styles.redirect}>
-        Already have an account?
+        <div>Already have an account?</div>
         <Link href={PATH.login}>Login</Link>
       </div>
     </div>

@@ -34,7 +34,7 @@ export default function page() {
       </form>
 
       <div className={styles.redirect}>
-        Don't have an account?
+        <div>{"Don't have an account?"}</div>
         <Link href={PATH.signup}>Signup</Link>
       </div>
     </div>
