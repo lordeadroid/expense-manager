@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 
 import setCookies from "@/lib/set-cookies";
 import { PATH } from "@/constants";
+import styles from "../styles/login.module.css";
 
 export default function page() {
   const handleSubmit = async (formData: FormData) => {
@@ -20,24 +21,35 @@ export default function page() {
   };
 
   return (
-    <div className="login-form">
-      <form action={handleSubmit}>
-        <input type="text" name="username" placeholder="Username" required />
+    <div className={styles.page}>
+      <form action={handleSubmit} className={styles.form}>
+        <input
+          type="text"
+          name="username"
+          placeholder="Username"
+          className={styles.inputBox}
+          required
+        />
         <input
           type="password"
           name="password"
           placeholder="Password"
+          className={styles.inputBox}
           required
         />
         <input
           type="password"
           name="confirm-password"
           placeholder="Confirm Password"
+          className={styles.inputBox}
           required
         />
-        <input type="submit" value="SIGNUP" />
+        <input type="submit" value="SIGNUP" className={styles.button} />
       </form>
-      <Link href={PATH.login}>Login</Link>
+      <div className={styles.redirect}>
+        Already have an account?
+        <Link href={PATH.login}>Login</Link>
+      </div>
     </div>
   );
 }
