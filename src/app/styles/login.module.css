@@ -1,0 +1,47 @@
+.page {
+  margin: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inputBox {
+  all: unset;
+  font-size: 1.25em;
+  padding-left: 20px;
+  width: 20vw;
+  height: 6vh;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25), -10px -10px 10px white;
+}
+
+.button {
+  all: unset;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 1.25em;
+  width: 6vw;
+  height: 6vh;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25), -10px -10px 10px white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.redirect {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: 1.1em;
+}
