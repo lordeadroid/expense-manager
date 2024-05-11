@@ -141,6 +141,16 @@
   },
   {
     "user": "rishabh",
+    "product": "Rent",
+    "category": "Bill",
+    "amount": 7000,
+    "transaction": "debit",
+    "transactedAt": "5-May-2024",
+    "createdAt": "2024-05-06T08:43:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
     "product": "Momos",
     "category": "Food & Bev",
     "amount": 70,
@@ -187,6 +197,96 @@
     "transaction": "debit",
     "transactedAt": "8-May-2024",
     "createdAt": "2024-05-08T05:58:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Ice Cream",
+    "category": "Food & Bev",
+    "amount": 15,
+    "transaction": "debit",
+    "transactedAt": "8-May-2024",
+    "createdAt": "2024-05-08T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Dosa",
+    "category": "Food & Bev",
+    "amount": 43.45,
+    "transaction": "debit",
+    "transactedAt": "9-May-2024",
+    "createdAt": "2024-05-11T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Chocolate Shake",
+    "category": "Food & Bev",
+    "amount": 44.5,
+    "transaction": "debit",
+    "transactedAt": "9-May-2024",
+    "createdAt": "2024-05-11T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Kathi Roll",
+    "category": "Food & Bev",
+    "amount": 40,
+    "transaction": "debit",
+    "transactedAt": "9-May-2024",
+    "createdAt": "2024-05-11T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Tea",
+    "category": "Food & Bev",
+    "amount": 110,
+    "transaction": "debit",
+    "transactedAt": "9-May-2024",
+    "createdAt": "2024-05-11T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Chicken Gravy",
+    "category": "Food & Bev",
+    "amount": 501,
+    "transaction": "debit",
+    "transactedAt": "10-May-2024",
+    "createdAt": "2024-05-11T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Biryani",
+    "category": "Food & Bev",
+    "amount": 203.98,
+    "transaction": "debit",
+    "transactedAt": "11-May-2024",
+    "createdAt": "2024-05-11T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Cold Drink",
+    "category": "Food & Bev",
+    "amount": 40,
+    "transaction": "debit",
+    "transactedAt": "11-May-2024",
+    "createdAt": "2024-05-11T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Curd",
+    "category": "Food & Bev",
+    "amount": 10,
+    "transaction": "debit",
+    "transactedAt": "11-May-2024",
+    "createdAt": "2024-05-11T02:24:46.214Z",
     "mode": "credit-card"
   }
 ]
