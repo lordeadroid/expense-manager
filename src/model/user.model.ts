@@ -1,13 +1,12 @@
-import TUserDocument from "@/types/user";
+import TUser from "@/types/user";
 import { Model, Schema, model, models } from "mongoose";
 
-const TransactionSchema: Schema<TUserDocument> = new Schema({
+const UserSchema: Schema<TUser> = new Schema({
   username: { type: String, required: true },
-  hashedPassword: {type: String, require: true}
+  hashedPassword: { type: String, required: true },
 });
 
-const TransactionModel =
-  (models.TUserDocument as Model<TUserDocument>) ||
-  model<TUserDocument>("TTransaction", TransactionSchema);
+const UserModel =
+  (models.User as Model<TUser>) || model<TUser>("User", UserSchema);
 
-export default TransactionModel;
+export default UserModel;
