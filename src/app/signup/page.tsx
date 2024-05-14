@@ -1,18 +1,20 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
 
+import createUser from "@/lib/create-user";
 import setCookies from "@/lib/set-cookies";
-import { PATH } from "@/constants";
 import styles from "../styles/login.module.css";
+import { PATH } from "@/constants";
 
 export default function page() {
   const handleSubmit = async (formData: FormData) => {
     "use server";
-    const username = formData.get("username");
-    const password = formData.get("password");
+    const username = formData.get("username") as string;
+    const password = formData.get("password") as string;
     const confirmPassword = formData.get("confirm-password");
 
     if (password === confirmPassword) {
+      createUser(username, password);
       setCookies(formData);
       redirect("/");
     }
