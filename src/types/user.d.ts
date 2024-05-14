@@ -1,10 +1,10 @@
 import { Document } from "mongoose";
 
-type TUser = {
+type User = {
   username: string;
   hashedPassword: string;
 };
 
-type TUserDocument = TUser & Document;
+type TUser = User & Document;
 
-export default TUserDocument;
+export default TUser;
