@@ -5,15 +5,23 @@ import createUser from "@/lib/create-user";
 import setCookies from "@/lib/set-cookies";
 import styles from "../styles/login.module.css";
 import { PATH } from "@/constants";
+import isValidCredentials from "@/lib/valid-credentials";
+import { TRes } from "@/types/types";
 
 export default function page() {
   const handleSubmit = async (formData: FormData) => {
     "use server";
     const username = formData.get("username") as string;
     const password = formData.get("password") as string;
-    const confirmPassword = formData.get("confirm-password");
+    const confirmPassword = formData.get("confirmPassword") as string;
 
-    if (password === confirmPassword) {
+    const res: TRes = await isValidCredentials(
+      username,
+      password,
+      confirmPassword
+    );
+
+    if (res.status) {
       createUser(username, password);
       setCookies(formData);
       redirect("/");
@@ -41,7 +49,7 @@ export default function page() {
         />
         <input
           type="password"
-          name="confirm-password"
+          name="confirmPassword"
           placeholder="Confirm Password"
           className={styles.inputBox}
           required
