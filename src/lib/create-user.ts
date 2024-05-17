@@ -1,3 +1,5 @@
+"use server";
+
 import UserModel from "@/model/user.model";
 import dbConnect from "./db-connect";
 
