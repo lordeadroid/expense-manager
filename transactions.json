@@ -288,5 +288,255 @@
     "transactedAt": "11-May-2024",
     "createdAt": "2024-05-11T02:24:46.214Z",
     "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Curd Rice",
+    "category": "Food & Bev",
+    "amount": 55,
+    "transaction": "debit",
+    "transactedAt": "12-May-2024",
+    "createdAt": "2024-05-11T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Cotton",
+    "category": "Medical Supplies",
+    "amount": 43,
+    "transaction": "debit",
+    "transactedAt": "13-May-2024",
+    "createdAt": "2024-05-15T02:24:46.214Z",
+    "mode": "cash"
+  },
+  {
+    "user": "rishabh",
+    "product": "Dosa",
+    "category": "Food & Bev",
+    "amount": 26,
+    "transaction": "debit",
+    "transactedAt": "13-May-2024",
+    "createdAt": "2024-05-15T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "South Meal",
+    "category": "Food & Bev",
+    "amount": 110,
+    "transaction": "debit",
+    "transactedAt": "13-May-2024",
+    "createdAt": "2024-05-15T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Meal",
+    "category": "Food & Bev",
+    "amount": 134.4,
+    "transaction": "debit",
+    "transactedAt": "12-May-2024",
+    "createdAt": "2024-05-15T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Juice",
+    "category": "Food & Bev",
+    "amount": 40,
+    "transaction": "debit",
+    "transactedAt": "13-May-2024",
+    "createdAt": "2024-05-15T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Medicine",
+    "category": "Medical Supplies",
+    "amount": 340.87,
+    "transaction": "debit",
+    "transactedAt": "13-May-2024",
+    "createdAt": "2024-05-15T02:24:46.214Z",
+    "mode": "cash"
+  },
+  {
+    "user": "rishabh",
+    "product": "Cold Drink",
+    "category": "Food & Bev",
+    "amount": 20,
+    "transaction": "debit",
+    "transactedAt": "14-May-2024",
+    "createdAt": "2024-05-15T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Fruits",
+    "category": "Food & Bev",
+    "amount": 80,
+    "transaction": "debit",
+    "transactedAt": "14-May-2024",
+    "createdAt": "2024-05-15T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Juice",
+    "category": "Food & Bev",
+    "amount": 40,
+    "transaction": "debit",
+    "transactedAt": "12-May-2024",
+    "createdAt": "2024-05-15T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Dosa",
+    "category": "Food & Bev",
+    "amount": 30.8,
+    "transaction": "debit",
+    "transactedAt": "14-May-2024",
+    "createdAt": "2024-05-15T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Tea",
+    "category": "Food & Bev",
+    "amount": 10,
+    "transaction": "debit",
+    "transactedAt": "15-May-2024",
+    "createdAt": "2024-05-15T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Exam Fee",
+    "category": "Bill",
+    "amount": 1100,
+    "transaction": "debit",
+    "transactedAt": "14-May-2024",
+    "createdAt": "2024-05-15T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Ice Cream",
+    "category": "Food & Bev",
+    "amount": 80,
+    "transaction": "debit",
+    "transactedAt": "15-May-2024",
+    "createdAt": "2024-05-15T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Fruits",
+    "category": "Food & Bev",
+    "amount": 35,
+    "transaction": "debit",
+    "transactedAt": "15-May-2024",
+    "createdAt": "2024-05-15T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Dosa",
+    "category": "Food & Bev",
+    "amount": 28.8,
+    "transaction": "debit",
+    "transactedAt": "16-May-2024",
+    "createdAt": "2024-05-16T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Meal",
+    "category": "Food & Bev",
+    "amount": 161.89,
+    "transaction": "debit",
+    "transactedAt": "16-May-2024",
+    "createdAt": "2024-05-16T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Fruits",
+    "category": "Food & Bev",
+    "amount": 80,
+    "transaction": "debit",
+    "transactedAt": "16-May-2024",
+    "createdAt": "2024-05-16T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Cold Drink",
+    "category": "Food & Bev",
+    "amount": 20,
+    "transaction": "debit",
+    "transactedAt": "16-May-2024",
+    "createdAt": "2024-05-16T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Momos",
+    "category": "Food & Bev",
+    "amount": 121.21,
+    "transaction": "debit",
+    "transactedAt": "16-May-2024",
+    "createdAt": "2024-05-16T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Momos",
+    "category": "Food & Bev",
+    "amount": 121.21,
+    "transaction": "debit",
+    "transactedAt": "16-May-2024",
+    "createdAt": "2024-05-16T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Tea",
+    "category": "Food & Bev",
+    "amount": 15,
+    "transaction": "debit",
+    "transactedAt": "17-May-2024",
+    "createdAt": "2024-05-17T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Fruits",
+    "category": "Food & Bev",
+    "amount": 80,
+    "transaction": "debit",
+    "transactedAt": "17-May-2024",
+    "createdAt": "2024-05-17T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Tea",
+    "category": "Food & Bev",
+    "amount": 15,
+    "transaction": "debit",
+    "transactedAt": "17-May-2024",
+    "createdAt": "2024-05-17T02:24:46.214Z",
+    "mode": "credit-card"
+  },
+  {
+    "user": "rishabh",
+    "product": "Vada Pao",
+    "category": "Food & Bev",
+    "amount": 25,
+    "transaction": "debit",
+    "transactedAt": "17-May-2024",
+    "createdAt": "2024-05-17T02:24:46.214Z",
+    "mode": "credit-card"
   }
 ]
