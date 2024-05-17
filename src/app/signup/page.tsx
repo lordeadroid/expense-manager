@@ -1,38 +1,18 @@
+"use client";
 import Link from "next/link";
-import { redirect } from "next/navigation";
-
-import createUser from "@/lib/create-user";
-import setCookies from "@/lib/set-cookies";
 import styles from "../styles/login.module.css";
 import { PATH } from "@/constants";
-import isValidCredentials from "@/lib/valid-credentials";
-import { TRes } from "@/types/types";
+import handleSubmit from "@/lib/handle-submit";
+import { useFormState } from "react-dom";
 
 export default function page() {
-  const handleSubmit = async (formData: FormData) => {
-    "use server";
-    const username = formData.get("username") as string;
-    const password = formData.get("password") as string;
-    const confirmPassword = formData.get("confirmPassword") as string;
-
-    const res: TRes = await isValidCredentials(
-      username,
-      password,
-      confirmPassword
-    );
-
-    if (res.status) {
-      createUser(username, password);
-      setCookies(formData);
-      redirect("/");
-    }
-
-    redirect("signup");
-  };
+  const initialState = { status: false, error: "" };
+  const [state, formAction] = useFormState(handleSubmit, initialState);
 
   return (
     <div className={styles.page}>
-      <form action={handleSubmit} className={styles.form}>
+      <div className={state.status ? "" : styles.error}>{state.error}</div>
+      <form action={formAction} className={styles.form}>
         <input
           type="text"
           name="username"
