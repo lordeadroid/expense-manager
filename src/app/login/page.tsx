@@ -1,21 +1,18 @@
+"use client";
 import Link from "next/link";
-import { redirect } from "next/navigation";
-
 import styles from "../styles/login.module.css";
-import setCookies from "@/lib/set-cookies";
 import { PATH } from "@/constants";
+import { useFormState } from "react-dom";
+import handleLogin from "./handle-login";
 
-export default function page() {
-  const handleSubmit = async (formData: FormData) => {
-    "use server";
-
-    setCookies(formData);
-    redirect("/");
-  };
+export default function Page() {
+  const initialState = { status: false, error: "" };
+  const [state, formAction] = useFormState(handleLogin, initialState);
 
   return (
     <div className={styles.page}>
-      <form action={handleSubmit} className={styles.form}>
+      <div className={state.status ? "" : styles.error}>{state.error}</div>
+      <form action={formAction} className={styles.form}>
         <input
           type="text"
           name="username"
