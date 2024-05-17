@@ -5,7 +5,7 @@ import { PATH } from "@/constants";
 import handleSubmit from "@/lib/handle-submit";
 import { useFormState } from "react-dom";
 
-export default function page() {
+export default function Page() {
   const initialState = { status: false, error: "" };
   const [state, formAction] = useFormState(handleSubmit, initialState);
 
