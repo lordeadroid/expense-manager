@@ -13,7 +13,7 @@ const TransactionSchema: Schema<TTransaction> = new Schema({
 });
 
 const TransactionModel =
-  (models.TTransactionDocument as Model<TTransaction>) ||
+  (models.TTransaction as Model<TTransaction>) ||
   model<TTransaction>("Transaction", TransactionSchema);
 
 export default TransactionModel;
