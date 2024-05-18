@@ -4,4 +4,6 @@ const PATH = {
   signup: "/signup",
 };
 
-export { PATH };
+const emptyString = "";
+
+export { PATH, emptyString };
