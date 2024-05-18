@@ -1,3 +1,4 @@
+import TTransaction from "@/types/transaction";
 import getPreviousTransactions from "./getPreviousTransactions";
 
 const PreviousTransactions = async () => {
@@ -14,7 +15,7 @@ const PreviousTransactions = async () => {
   );
 
   const TransactionsContainer = transactions.map(
-    (transaction: any, index: any) => {
+    (transaction: TTransaction, index: number) => {
       const { product, category, amount, transactedAt } = transaction;
       return (
         <div key={index} className="transaction">
@@ -22,10 +23,10 @@ const PreviousTransactions = async () => {
           <div>{product}</div>
           <div>{amount}</div>
           <div>{category}</div>
-          <div>{transactedAt}</div>
+          <div>{transactedAt.toDateString()}</div>
         </div>
       );
-    }
+    },
   );
 
   return (
