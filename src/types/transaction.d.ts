@@ -1,15 +1,16 @@
 import { Document } from "mongoose";
 
-type TTransaction = {
-  user: string;
+type Transaction = {
+  username: string;
   product: string;
   category: string;
   amount: number;
+  transaction: "debit" | "credit";
   transactedAt: Date;
   createdAt: Date;
-  mode: "credit" | "cash";
+  mode: "credit-card" | "cash";
 };
 
-type TTransactionDocument = TTransaction & Document;
+type TTransaction = Transaction & Document;
 
-export default TTransactionDocument;
+export default TTransaction;
