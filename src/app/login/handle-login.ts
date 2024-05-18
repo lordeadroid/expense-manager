@@ -22,7 +22,7 @@ const handleLogin = async (previousState: any, formData: FormData) => {
     return { status: false, error: "Wrong Password" };
   }
 
-  setCookies(formData);
+  setCookies(username, hashedPassword);
   redirect("/");
 };
 
