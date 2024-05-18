@@ -14,7 +14,7 @@ const setCookies = async (formData: FormData) => {
 
   const isVerified: boolean = await isVerifiedUser(
     username as string,
-    hashedPassword
+    hashedPassword,
   );
 
   if (isVerified) {

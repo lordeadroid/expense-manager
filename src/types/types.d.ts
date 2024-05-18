@@ -3,10 +3,6 @@ type TRes = {
   error?: string;
 };
 
-type TValidCredential = (
-  username: string,
-  password: string,
-  hashedPassword: string
-) => Promise<TRes>;
+type TUsernameAvailable = (username: string) => Promise<TRes>;
 
-export { TRes, TValidCredential };
+export { TRes, TUsernameAvailable };
