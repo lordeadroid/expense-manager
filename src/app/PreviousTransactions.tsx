@@ -14,8 +14,8 @@ const PreviousTransactions = async () => {
     </div>
   );
 
-  const TransactionsContainer = transactions.map(
-    (transaction: TTransaction, index: number) => {
+  const TransactionsContainer = transactions ? (
+    transactions.map((transaction: TTransaction, index: number) => {
       const { product, category, amount, transactedAt } = transaction;
       return (
         <div key={index} className="transaction">
@@ -26,7 +26,9 @@ const PreviousTransactions = async () => {
           <div>{transactedAt.toDateString()}</div>
         </div>
       );
-    },
+    })
+  ) : (
+    <div>No Transactions Yet</div>
   );
 
   return (
