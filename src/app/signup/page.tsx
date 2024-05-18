@@ -2,12 +2,12 @@
 import Link from "next/link";
 import styles from "../styles/login.module.css";
 import { PATH, emptyString } from "@/constants";
-import handleSubmit from "@/lib/handle-submit";
 import { useFormState } from "react-dom";
+import handleSignup from "./handle-signup";
 
 export default function Page() {
   const initialState = { status: false, error: emptyString };
-  const [state, formAction] = useFormState(handleSubmit, initialState);
+  const [state, formAction] = useFormState(handleSignup, initialState);
 
   return (
     <div className={styles.page}>

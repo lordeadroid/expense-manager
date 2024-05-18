@@ -1,11 +1,11 @@
 "use server";
 
-import setCookies from "./set-cookies";
-import { redirect } from "next/navigation";
-import encrypt from "./encrypt";
-import dbConnect from "./db-connect";
+import dbConnect from "@/lib/db-connect";
+import encrypt from "@/lib/encrypt";
+import setCookies from "@/lib/set-cookies";
 import UserModel from "@/model/user.model";
 import { TRes, TUsernameAvailable } from "@/types/types";
+import { redirect } from "next/navigation";
 
 const createUser = async (username: string, hashedPassword: string) => {
   await dbConnect();
@@ -21,7 +21,7 @@ const usernameAvailable: TUsernameAvailable = async (username) => {
   return { status: true };
 };
 
-const handleSubmit = async (previousState: any, formData: FormData) => {
+const handleSignup = async (_previousState: any, formData: FormData) => {
   const username = formData.get("username") as string;
   const password = formData.get("password") as string;
   const confirmPassword = formData.get("confirmPassword") as string;
@@ -35,11 +35,11 @@ const handleSubmit = async (previousState: any, formData: FormData) => {
 
   if (res.status) {
     await createUser(username, hashedPassword);
-    setCookies(formData);
+    setCookies(username, hashedPassword);
     redirect("/");
   }
 
   return res;
 };
 
-export default handleSubmit;
+export default handleSignup;
