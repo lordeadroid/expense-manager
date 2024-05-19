@@ -6,7 +6,7 @@ const getPreviousTransactions = async () => {
   try {
     const username = cookies().get("username")?.value;
     await dbConnect();
-    return await TransactionModel.find({ username });
+    return await TransactionModel.find({ username }).sort({ transactedAt: -1 });
   } catch (error) {
     console.error(error);
   }
