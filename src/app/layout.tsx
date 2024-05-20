@@ -1,3 +1,4 @@
+import AddTransaction from "./Add-Transaction";
 import Navbar from "./components/Navbar";
 import "./styles/global.css";
 
